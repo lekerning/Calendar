@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9601B3191A0220B20010BD0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B3181A0220B20010BD0F /* main.m */; };
+		9601B31C1A0220B20010BD0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B31B1A0220B20010BD0F /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9601B31F1A0220B20010BD0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B31E1A0220B20010BD0F /* ViewController.m */; };
+		9601B3221A0220B20010BD0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9601B3201A0220B20010BD0F /* Main.storyboard */; };
+		9601B3241A0220B20010BD0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9601B3231A0220B20010BD0F /* Images.xcassets */; };
+		9601B3271A0220B20010BD0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9601B3251A0220B20010BD0F /* LaunchScreen.xib */; };
+		9601B3331A0220B20010BD0F /* JasonClendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B3321A0220B20010BD0F /* JasonClendarTests.m */; };
+		9601B3471A0222070010BD0F /* NSDate+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B33E1A0222070010BD0F /* NSDate+convenience.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9601B3481A0222070010BD0F /* NSMutableArray+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B3401A0222070010BD0F /* NSMutableArray+convenience.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9601B3491A0222070010BD0F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B3421A0222070010BD0F /* UIColor+expanded.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9601B34A1A0222070010BD0F /* UIView+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B3441A0222070010BD0F /* UIView+convenience.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9601B34B1A0222070010BD0F /* VRGCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B3461A0222070010BD0F /* VRGCalendarView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9601B32D1A0220B20010BD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9601B30B1A0220B20010BD0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9601B3121A0220B20010BD0F;
+			remoteInfo = JasonClendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9601B3131A0220B20010BD0F /* JasonClendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasonClendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9601B3171A0220B20010BD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9601B3181A0220B20010BD0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9601B31A1A0220B20010BD0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9601B31B1A0220B20010BD0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9601B31D1A0220B20010BD0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9601B31E1A0220B20010BD0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9601B3211A0220B20010BD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9601B3231A0220B20010BD0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9601B3261A0220B20010BD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9601B32C1A0220B20010BD0F /* JasonClendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JasonClendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9601B3311A0220B20010BD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9601B3321A0220B20010BD0F /* JasonClendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JasonClendarTests.m; sourceTree = "<group>"; };
+		9601B33D1A0222070010BD0F /* NSDate+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+convenience.h"; sourceTree = "<group>"; };
+		9601B33E1A0222070010BD0F /* NSDate+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+convenience.m"; sourceTree = "<group>"; };
+		9601B33F1A0222070010BD0F /* NSMutableArray+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+convenience.h"; sourceTree = "<group>"; };
+		9601B3401A0222070010BD0F /* NSMutableArray+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+convenience.m"; sourceTree = "<group>"; };
+		9601B3411A0222070010BD0F /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		9601B3421A0222070010BD0F /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		9601B3431A0222070010BD0F /* UIView+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+convenience.h"; sourceTree = "<group>"; };
+		9601B3441A0222070010BD0F /* UIView+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+convenience.m"; sourceTree = "<group>"; };
+		9601B3451A0222070010BD0F /* VRGCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRGCalendarView.h; sourceTree = "<group>"; };
+		9601B3461A0222070010BD0F /* VRGCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRGCalendarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9601B3101A0220B20010BD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9601B3291A0220B20010BD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9601B30A1A0220B20010BD0F = {
+			isa = PBXGroup;
+			children = (
+				9601B3151A0220B20010BD0F /* JasonClendar */,
+				9601B32F1A0220B20010BD0F /* JasonClendarTests */,
+				9601B3141A0220B20010BD0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9601B3141A0220B20010BD0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9601B3131A0220B20010BD0F /* JasonClendar.app */,
+				9601B32C1A0220B20010BD0F /* JasonClendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9601B3151A0220B20010BD0F /* JasonClendar */ = {
+			isa = PBXGroup;
+			children = (
+				9601B33C1A0222070010BD0F /* CustomClander */,
+				9601B31A1A0220B20010BD0F /* AppDelegate.h */,
+				9601B31B1A0220B20010BD0F /* AppDelegate.m */,
+				9601B31D1A0220B20010BD0F /* ViewController.h */,
+				9601B31E1A0220B20010BD0F /* ViewController.m */,
+				9601B3201A0220B20010BD0F /* Main.storyboard */,
+				9601B3231A0220B20010BD0F /* Images.xcassets */,
+				9601B3251A0220B20010BD0F /* LaunchScreen.xib */,
+				9601B3161A0220B20010BD0F /* Supporting Files */,
+			);
+			path = JasonClendar;
+			sourceTree = "<group>";
+		};
+		9601B3161A0220B20010BD0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9601B3171A0220B20010BD0F /* Info.plist */,
+				9601B3181A0220B20010BD0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9601B32F1A0220B20010BD0F /* JasonClendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9601B3321A0220B20010BD0F /* JasonClendarTests.m */,
+				9601B3301A0220B20010BD0F /* Supporting Files */,
+			);
+			path = JasonClendarTests;
+			sourceTree = "<group>";
+		};
+		9601B3301A0220B20010BD0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9601B3311A0220B20010BD0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9601B33C1A0222070010BD0F /* CustomClander */ = {
+			isa = PBXGroup;
+			children = (
+				9601B33D1A0222070010BD0F /* NSDate+convenience.h */,
+				9601B33E1A0222070010BD0F /* NSDate+convenience.m */,
+				9601B33F1A0222070010BD0F /* NSMutableArray+convenience.h */,
+				9601B3401A0222070010BD0F /* NSMutableArray+convenience.m */,
+				9601B3411A0222070010BD0F /* UIColor+expanded.h */,
+				9601B3421A0222070010BD0F /* UIColor+expanded.m */,
+				9601B3431A0222070010BD0F /* UIView+convenience.h */,
+				9601B3441A0222070010BD0F /* UIView+convenience.m */,
+				9601B3451A0222070010BD0F /* VRGCalendarView.h */,
+				9601B3461A0222070010BD0F /* VRGCalendarView.m */,
+			);
+			path = CustomClander;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9601B3121A0220B20010BD0F /* JasonClendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9601B3361A0220B20010BD0F /* Build configuration list for PBXNativeTarget "JasonClendar" */;
+			buildPhases = (
+				9601B30F1A0220B20010BD0F /* Sources */,
+				9601B3101A0220B20010BD0F /* Frameworks */,
+				9601B3111A0220B20010BD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JasonClendar;
+			productName = JasonClendar;
+			productReference = 9601B3131A0220B20010BD0F /* JasonClendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9601B32B1A0220B20010BD0F /* JasonClendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9601B3391A0220B20010BD0F /* Build configuration list for PBXNativeTarget "JasonClendarTests" */;
+			buildPhases = (
+				9601B3281A0220B20010BD0F /* Sources */,
+				9601B3291A0220B20010BD0F /* Frameworks */,
+				9601B32A1A0220B20010BD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9601B32E1A0220B20010BD0F /* PBXTargetDependency */,
+			);
+			name = JasonClendarTests;
+			productName = JasonClendarTests;
+			productReference = 9601B32C1A0220B20010BD0F /* JasonClendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9601B30B1A0220B20010BD0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jason.zhang;
+				TargetAttributes = {
+					9601B3121A0220B20010BD0F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					9601B32B1A0220B20010BD0F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9601B3121A0220B20010BD0F;
+					};
+				};
+			};
+			buildConfigurationList = 9601B30E1A0220B20010BD0F /* Build configuration list for PBXProject "JasonClendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9601B30A1A0220B20010BD0F;
+			productRefGroup = 9601B3141A0220B20010BD0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9601B3121A0220B20010BD0F /* JasonClendar */,
+				9601B32B1A0220B20010BD0F /* JasonClendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9601B3111A0220B20010BD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9601B3221A0220B20010BD0F /* Main.storyboard in Resources */,
+				9601B3271A0220B20010BD0F /* LaunchScreen.xib in Resources */,
+				9601B3241A0220B20010BD0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9601B32A1A0220B20010BD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9601B30F1A0220B20010BD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9601B34B1A0222070010BD0F /* VRGCalendarView.m in Sources */,
+				9601B31F1A0220B20010BD0F /* ViewController.m in Sources */,
+				9601B31C1A0220B20010BD0F /* AppDelegate.m in Sources */,
+				9601B3491A0222070010BD0F /* UIColor+expanded.m in Sources */,
+				9601B3471A0222070010BD0F /* NSDate+convenience.m in Sources */,
+				9601B3481A0222070010BD0F /* NSMutableArray+convenience.m in Sources */,
+				9601B34A1A0222070010BD0F /* UIView+convenience.m in Sources */,
+				9601B3191A0220B20010BD0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9601B3281A0220B20010BD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9601B3331A0220B20010BD0F /* JasonClendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9601B32E1A0220B20010BD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9601B3121A0220B20010BD0F /* JasonClendar */;
+			targetProxy = 9601B32D1A0220B20010BD0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9601B3201A0220B20010BD0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9601B3211A0220B20010BD0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9601B3251A0220B20010BD0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9601B3261A0220B20010BD0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9601B3341A0220B20010BD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9601B3351A0220B20010BD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9601B3371A0220B20010BD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JasonClendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9601B3381A0220B20010BD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JasonClendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9601B33A1A0220B20010BD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JasonClendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JasonClendar.app/JasonClendar";
+			};
+			name = Debug;
+		};
+		9601B33B1A0220B20010BD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JasonClendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JasonClendar.app/JasonClendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9601B30E1A0220B20010BD0F /* Build configuration list for PBXProject "JasonClendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601B3341A0220B20010BD0F /* Debug */,
+				9601B3351A0220B20010BD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9601B3361A0220B20010BD0F /* Build configuration list for PBXNativeTarget "JasonClendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601B3371A0220B20010BD0F /* Debug */,
+				9601B3381A0220B20010BD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9601B3391A0220B20010BD0F /* Build configuration list for PBXNativeTarget "JasonClendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601B33A1A0220B20010BD0F /* Debug */,
+				9601B33B1A0220B20010BD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9601B30B1A0220B20010BD0F /* Project object */;
+}
