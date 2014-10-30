@@ -4,7 +4,7 @@
 //
 //  Created by Jason.zhang on 10/30/14.
 //  Copyright (c) 2014 Jason.zhang. All rights reserved.
-//
+//  我是想做一个测试啦啦啦
 
 #import "ViewController.h"
 #import "VRGCalendarView.h"
@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-    
     VRGCalendarView *calendar = [[VRGCalendarView alloc] init];
     CGRect cR = calendar.frame;
     cR.origin.x = 30;
